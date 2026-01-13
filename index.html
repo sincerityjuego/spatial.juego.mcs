@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoVision Monitor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>GeoVision Monitor</h1>
+        <input type="text" id="searchBar" placeholder="Enter exact address or coordinates...">
+        <button id="searchBtn">Search</button>
+    </header>
+    <div id="map"></div>
+    <aside id="sidebar">
+        <h2>Location Details</h2>
+        <div id="locationInfo">No location selected.</div>
+    </aside>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
