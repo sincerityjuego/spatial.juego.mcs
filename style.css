@@ -1,0 +1,46 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    gap: 10px;
+}
+
+header input {
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+}
+
+header button {
+    padding: 6px 12px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#map {
+    width: 75%;
+    height: calc(100% - 60px);
+    float: left;
+}
+
+#sidebar {
+    width: 25%;
+    height: calc(100% - 60px);
+    float: right;
+    background-color: #f0f0f0;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+}
